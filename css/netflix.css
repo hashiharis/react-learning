@@ -1,0 +1,139 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("https://assets.nflxext.com/ffe/siteui/vlv3/8728e059-7686-4d2d-a67a-84872bd71025/e90516bd-6925-4341-a6cf-0b9f3d0c140a/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_small.jpg");
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    font-family: sans-serif; 
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    color:#FFFFFF;
+    line-height: 2;
+    
+}
+.logo{
+    background-image: url("../html/images/netflix-removebg-preview.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    height:15vh;
+    width:100%;
+    background-size: contain;
+    margin-left: 2em;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1em;
+    padding-right: 2em;
+}
+.language{
+    padding-inline: 1em;
+    padding-block:0.5em;
+    border-color:rgba(128, 128, 128, 0.7);
+    border-style:solid;
+    border-width: 0.1em;
+    border-radius: 4px;
+    background-color: rgba(22, 22, 22, 0.7);
+}
+select{
+    background-color: rgba(22, 22, 22, 0.7);
+    color:white;
+    border:none;
+    font-size:1rem;
+    font-weight: 500;
+}
+
+select>option{
+    background-color:#FFFFFF;
+    color:black;
+    padding-inline: 1em;
+    padding-block:0.5em;
+}
+#sign-in{
+    font-size: 0.9rem;
+    font-weight: 600;
+    background-color: rgba(229,9,20,1);
+    border:none;
+    padding-inline:1em;
+    padding-block:0.5em;
+    text-wrap:nowrap;
+    border-radius: 4px;
+    color:#FFFFFF;
+    cursor: pointer;
+}
+.intro{
+    text-align:center;
+}
+
+#heading{
+    font-size:2rem;
+    font-weight:700;
+}
+
+#tagline,#heading2{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.login-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1em;
+}
+
+.email{
+    background-color: rgba(22, 22, 22, 0.7);
+    border-color:rgba(128, 128, 128, 0.7);
+    border-style:solid;
+    border-width: 0.1em;
+    border-radius: 4px;
+    padding-block:0.7em;
+    width:180%;
+   
+}
+/* .email,input{
+    background-color: rgba(22, 22, 22, 0.7);
+    text-align: left;
+    font-size: 1rem; 
+} */
+
+#email-box{
+    background-color: rgba(22, 22, 22, 0);
+    text-align: left;
+    font-size: 1.3rem; 
+    font-weight: 500;
+    border:none; 
+    width:100%; 
+    color:rgba(255, 255, 255, 0.7);
+    padding-left:1em;
+}
+
+.submit-btn,.btn{
+    width:100%;
+    background-color:  rgba(229,9,20,1);
+    color:#FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 4px;
+     
+}
+
+.btn{
+    border:none;
+    padding-top:0.6em;
+    cursor: pointer;
+}
+
+

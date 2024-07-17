@@ -1,0 +1,18 @@
+#header1{
+    color:blue;
+}
+
+.container{
+    width:100px;
+    height:100px;
+    background-color: blue;
+}
+
+.bgimg1{
+    background-image: url("../html/images/butterfly-1-1535829.jpg");
+    background-position: left;
+    /* background-color: blue; */
+}
+.bgimg2{
+    background-image: url("https://images.freeimages.com/images/large-previews/39a/spring-1377434.jpg?fmt=webp&h=350");
+}
