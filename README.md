@@ -1,2 +1,2 @@
 # react-learning
-A repository for learning react and assignmenets
+A repository for learning and doing react assignments
