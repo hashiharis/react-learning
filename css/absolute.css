@@ -1,0 +1,44 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+}
+
+.parent{
+    width:100%;
+    height:100%;
+}
+
+.red,.yellow,.green,.blue{
+ position:absolute;
+}
+
+.red{
+    background-color: red;
+    top:0px;
+    left:0px;
+    height:20%;
+    width:10%;
+}
+
+.yellow{
+    background-color: yellow;
+    top:0px;
+    right:0px;
+    height:20%;
+    width:10%;
+}
+
+.green{
+    background-color: green;
+    bottom:0px;
+    left:0px;
+    height:20%;
+    width:10%;
+}
+
+.blue{
+    background-color: blue;
+    bottom:0px;
+    right:0px;
+    height:20%;
+    width:10%;
+}

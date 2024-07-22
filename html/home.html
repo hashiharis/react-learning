@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+    <div class="container">
+        <div class="relative">Relative, top:20px right:20px->Considers it's current position as a reference for positioning</div>
+        <div class="absolute">Absolute, bottom:20px,
+            right:30px->Considers, the closest parent element that is not static for positioning.Also if not specified, the width, then it fits upto the text within the content</div>
+        <div class="fixed">Fixed, top:0px;
+            left:20px;->Considers the viewport as reference for positioning.This is used widely in positioning navbars.Also it remains fixed even when the page is scrolled</div>
+        <div class="sticky">Sticky,left:50px;
+            top:10px; -> Remains fixed, upto a certain position, even if the page is scrolling. Combination of fixed+relative</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    color:#FFFFFF;
+}
+
+.container{
+    background-color:aqua;
+    height: 1000px;
+    width:50%;
+    margin-top:5em;
+}
+
+.relative{
+    background-color: brown;
+    height:20%; 
+    position:relative;
+    top:20px;
+    right:20px;
+
+}
+
+.absolute{
+    background-color: blue;
+    /* height: 20%; */
+    width:20%;
+    position:absolute;
+    bottom:20px;
+    right:30px;
+}
+
+.fixed{
+    background-color: rgb(255, 0, 191);
+    height: 10%;
+    position:fixed;
+    top:0px;
+    left:20px;
+    width:100%
+}
+
+.sticky{
+    background-color:green;
+    height: 20%;
+    width:30%;
+    position:sticky;
+    left:50px;
+    top:10px;
+}
