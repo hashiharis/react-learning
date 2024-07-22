@@ -1,0 +1,150 @@
+.box{
+    background-color:lightblue;
+    height:10vh;
+    color:white;
+}
+.container{
+    display:flex;
+}
+
+.child-1{
+   background-color:blue;
+}
+
+.child-2{
+    background-color: blueviolet;
+}
+.child-3{
+    background-color: brown;
+}
+.child-4{
+    background-color: red;
+}
+.child-5{
+    background-color: green;
+}
+
+.container-1{
+    display:flex;
+    justify-content: flex-start;
+
+}
+.container-2{
+    display:flex;
+    justify-content: flex-end;
+
+}
+.container-3{
+    display:flex;
+    justify-content: center;
+}
+.container-4{
+    display: flex;
+    justify-content: space-between;
+}
+.container-5{
+    display: flex;
+    justify-content: space-around;
+}
+.container-6{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-7{
+    display: flex;
+    align-items:flex-start;
+}
+.container-8{
+    display: flex;
+    align-items:flex-end;
+}
+.container-9{
+    display: flex;
+    align-items:center;
+}
+.container-10{
+    display: flex;
+    align-items: baseline;
+}
+.container-11{
+    display: flex;
+    align-items: stretch;
+}
+.container-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-13{
+    display: flex;
+    gap:1em;
+}
+.container-14{
+    display:flex;
+    flex-wrap: wrap;
+}
+.container-15{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.container-16{
+    display:flex;
+    flex-wrap: wrap-reverse;
+}
+.container-17{
+    display: flex;
+}
+.order-1{
+    order:1;
+}
+.order-2{
+    order:2;
+}
+.order-neg-1{
+    order:-1;
+}
+.container-18{
+    display: flex;
+    flex-direction: row;
+}
+.container-19{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-20{
+    display: flex;
+    flex-direction: column;
+}
+.col-rev{
+    margin-top: 2em;
+}
+.container-21{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top:3em;
+}
+.container-22{
+    display: flex;
+    flex-flow: row wrap;
+}
+.container-23{
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+.container-24{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
+.container-25{
+    display: flex;
+    flex-flow: column wrap;
+}
+.container-26{
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+.container-27{
+    display: flex;
+    flex-flow: column wrap-reverse;
+}

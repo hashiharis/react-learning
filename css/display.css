@@ -1,0 +1,35 @@
+.div-block{
+    display:block;
+    width:50%;
+    height:10vh;
+    border-color: red;
+    border-style: solid;
+}
+.div-inline{
+    display:inline;
+    border-color: red;
+    border-style: solid;
+    width:50%;
+    height:10vh;
+}
+.div-inline-block{
+    display: inline-block;
+    border-color: red;
+    border-style: solid;
+    width:50%;
+    height:10vh;
+}
+.div-none{
+    display:none;
+    border-color: red;
+    border-style: solid;
+    width:50%;
+    height:10vh;
+}
+.div-visibility{
+    visibility:hidden;
+    border-color: red;
+    border-style: solid;
+    width:50%;
+    height:10vh;
+}
