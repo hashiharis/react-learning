@@ -1,0 +1,121 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:"Roboto",Arial, Helvetica, sans-serif;
+    /* overflow-y: scroll; */
+    font-size: 1rem;
+    color: rgb(32, 33, 36);
+}
+.gplay-logo{
+    max-width:100%;
+    height: 6.75em;
+}
+
+.search-icon,.question-icon{
+    max-width: 100%;
+    height:1.5em;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:2em;
+    padding-block:0.01em;
+    background-color: white; 
+}
+
+.fixed{
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index: 1000;
+}
+.sticky{
+    box-shadow: 0px 10px 8px 0px rgba(0,0,0,0.14);
+}
+
+
+.section1,.section2{
+    display: flex;
+    align-items: center;
+    gap:2em;
+}
+
+#user-icon{
+    border-radius: 40px;
+    background-color: #ea6b04;
+    color:white;
+    padding-block:0.5em;
+    padding-inline: 0.75em;
+}
+.container{
+    width:100%;
+    position:relative;
+    top:200px;
+    margin:0 auto;
+    padding-inline:4em;
+   /* margin-top: 2em; */
+}
+.section-heading{
+   font-weight: 500;
+   font-size:1.5rem;
+}
+
+.new-movies{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:2em;
+}
+.section1,.section2{
+   margin-top:2em; 
+}
+
+.movie-img{
+    width:100%;
+    object-fit: contain;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
+}
+.rating-icon{
+  max-width:1rem;
+}
+
+.movie-name{
+  margin-block: 1em;
+  font-size: 0.9rem;
+}
+
+.movie-stats{
+    color:rgb(95, 99, 104);
+    display: flex;
+    gap:0.5em;
+    font-size: 0.9rem;
+}
+
+.top-section{
+    margin-top: 2em;
+}
+#sub-heading{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.top-selling-movies{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    gap:2em;
+}
+
+
+.topmovie-img{
+    width:163px;
+    height:234px;
+    /* max-width:100%; */
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3),0 1px 3px 1px rgba(60,64,67,.15);
+}
