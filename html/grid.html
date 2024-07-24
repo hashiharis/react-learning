@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/grid.css">
+</head>
+<body>
+    <h1>Grid System</h1>
+    <h2>It creates 2 dimensional layouts</h2>
+    <h3>Grid Template Columns: grid-template-columns:repeat(6,1fr)</h3>
+    <div class="grid-container-1 wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <h3>Grod Template columns grid-template-columns: 1fr 2fr 4fr</h3>
+    <div class="grid-container-2 wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <h3>Gri dTemplate columns grid-template-columns:1fr 60px</h3>
+    <h3>Mixed units fixed(px) and fractional</h3>
+    <p>When applying mixed units, the fixed units get first priority by the browser. Acc to this eg, 60Px column takes up exactly 60 pixels of width. Fractional units will take the remaining space.
+        The fr units divide the remaining space proportionally. In this case, 1fr will occupy the remaining space left after taking the 60px of width for the column.
+    </p>
+    <div class="grid-container-3 wrapper">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>

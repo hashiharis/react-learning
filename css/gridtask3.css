@@ -1,0 +1,38 @@
+.grid-container{
+    display:grid;
+    border: 3px solid gray;
+    height:80vh;
+    gap:2px;
+    color:white;
+}
+
+.header{
+    background-color:#52a7f9 ;
+    grid-area: 1/1/1/7;
+}
+.main-content{
+    background-color: #6fc041;
+    grid-area:2/2/4/5;
+}
+.sidebar{
+    background-color:#b36ae2 ;
+    grid-area:2/5/4/6 ;
+}
+.twin{
+    background-color:#f3901a ;
+    grid-area: 4/2/5/4;
+}
+.twin1{
+        background-color: #f3901a ;
+        grid-area:4/4/5/6;
+}
+.footer{
+    background-color:#0365c0 ;
+    grid-area:5/1/6/7;
+}
+
+.grid-container div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
