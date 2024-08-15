@@ -1,0 +1,24 @@
+.card-item{
+    width:100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.card-item img{
+    width:100%;
+}
+.date-section{
+    display: flex;
+    gap:2em;
+    justify-content: flex-start;
+    font-size: 0.7rem;
+}
+
+.card-content{
+    padding-inline:1em;
+    font-size: 0.8rem;
+}
+
+#category{
+    font-weight: 700;
+    color:rgb(0, 106, 255);
+}

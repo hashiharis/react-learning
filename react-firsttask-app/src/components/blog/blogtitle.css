@@ -1,0 +1,12 @@
+.heading {
+    text-align: center;
+}
+.headline{
+    text-wrap: wrap;
+    margin-inline:12em;
+    font-weight: 400;
+}
+#blog-section-category{
+    text-transform: uppercase;
+    color:grey;
+}
