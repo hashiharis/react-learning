@@ -1,0 +1,27 @@
+.banner-title{
+    text-align: center;
+}
+.banner-title h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color:#424242;
+}
+
+.banner-title h5{
+    text-align: center;
+    line-height: 1.7;
+    font-weight: 400;
+    font-size: 1rem;
+    color:#424242;
+}
+#signup{
+  background-color: #387ed1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding-block: 0.5em;
+  padding-inline: 1.2em;
+  font-size: 1.2rem;
+  font-weight: 500;
+}

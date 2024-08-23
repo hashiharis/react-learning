@@ -1,0 +1,21 @@
+.bmi-wrapper{
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+
+.input-section{
+    line-height: 2em;
+}
+
+.input-section label{
+    padding-inline:2em;
+}
+
+.input-section input{
+    padding-block:0.5em;
+}
+
+.input-section button{
+    margin-top: 2em;
+}
