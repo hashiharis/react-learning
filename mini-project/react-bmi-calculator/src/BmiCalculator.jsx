@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars */
+
 import { useState } from "react";
 import "./bmi.css";
 import { BmiTable } from "./BmiTable";
@@ -15,18 +15,24 @@ export const BmiCalculator = () => {
       alert("enter value");
       return;
     }
-    setBmi((weight / (height * height)) * 10000);
-    console.log("Inside",bmi)
-    if (bmi < 18.5) {
-      setCategory((prevCategory)=>"Underweight");
-    } else if (bmi >= 18.5 && bmi <= 24.9) {
-      setCategory("Normal Weight");
-    } else if (bmi >= 20 && bmi <= 29.9) {
-      setCategory("Overweight");
+    let calculateBmi=(weight / (height * height)) * 10000;
+    setBmi(calculateBmi);
+    // console.log("Inside",bmi)
+    let calculatedCategory=""
+    if (calculateBmi < 18.5) {
+        calculatedCategory="Underweight";
+    } else if (calculateBmi >= 18.5 && calculateBmi <= 24.9) {
+       calculatedCategory="Normal Weight";
+    } else if (calculateBmi >= 20 && calculateBmi <= 29.9) {
+       calculatedCategory="Overweight";
     } else {
-      setCategory("Obese");
+       calculatedCategory="Obese";
     }
+
+    setCategory(calculatedCategory)
+   
   };
+
 
   console.log("Outside",bmi);
 
