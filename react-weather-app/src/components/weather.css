@@ -1,0 +1,79 @@
+.weather-data{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-image: url('../assets/pexels-alteredsnaps-17231412.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat; 
+    /* linear-gradient(to right, skyblue , rgb(0, 132, 255)); */
+    max-width:50%;
+    margin:auto;
+    text-align: center;
+    padding-top:1em;
+    margin-top:1em;
+    font-weight: 600;
+    border-radius: 5em;
+    border:1px solid #ffff99;
+}
+
+.clouds{
+    background-image: url('../assets/pexels-pixabay-531756.jpg');
+    opacity:0.8;
+}
+
+.clear{
+    background-image: url('../assets/pexels-francesco-ungaro-281260.jpg');
+  
+}
+
+.mist{
+    background-image: url('../assets/pexels-jaralol-17406358.jpg');
+    color:  #000099;
+}
+
+.rain{
+    background-image: url('../assets/rainy.jpg');
+    color:      #ffff99;
+    /* opacity:0.8; */
+}
+
+.drizzle{
+    background-image: url('../assets/pexels-lum3n-44775-311039.jpg');
+}
+
+.haze{
+    background-image: url('../assets/pexels-tiana-18128-614496.jpg');
+    color:  #990066;
+}
+.weather-measurements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+}
+
+.weather-metadata{
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr;
+    text-align: left;
+    justify-content: center;
+    padding-inline:8em;
+}
+
+@media (max-width:700px){
+
+    .weather-data{
+        max-width: 100%;
+    }
+
+    .weather-metadata{
+        grid-template-columns: 1fr 1fr;
+        padding-inline:1em;
+    }
+}
+
+@media (max-width:1000px){
+
+    .weather-metadata{
+        grid-template-columns: 1fr 1fr;
+        padding-inline:1em;
+    }
+}

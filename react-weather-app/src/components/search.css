@@ -1,0 +1,102 @@
+.form-container{
+    margin: auto;
+    width:100%;
+    padding-block:1em;
+    background-image: linear-gradient(to right, rgb(0, 132, 255), pink,indigo, rgba(255, 0, 0, 0.199)); 
+}
+
+.form-img{
+    background-image: url('../assets/sun.jpg');
+    width:5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.form{
+    display: flex;
+    gap: 5em;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.form-input{
+    font-size: 1.5rem;
+    font-weight:500;
+    padding-inline:1em;
+    border-radius:1em;
+}
+
+.form button{
+    /* padding-block:em; */
+    padding-inline: 3em;
+    border:none;
+    border-radius: 5px;
+    background-color:  #333399;
+    color:#eee;
+}
+
+.form select{
+    text-align: center;
+    border-radius:5px;
+}
+
+@media (max-width:700px){
+    .form{
+
+        display: flex;
+        flex-direction: column;
+        gap:2em;
+        
+    }
+
+    .form-container{
+        padding-inline:1em
+    }
+
+    .form-input{
+        font-size: 1rem;
+        font-weight:500;
+        padding-inline:0.5em;
+    }
+
+    
+.form button{
+    padding-block:1em;
+
+}
+.form select{
+  margin-inline:4em;
+  padding-block:0.5em;
+}
+}
+@media (max-width:1000px){
+
+    .form{
+
+        display: flex;
+        flex-direction: column;
+        gap:2em;
+        
+    }
+
+    .form-container{
+        padding-inline:1em
+    }
+
+    .form-input{
+        font-size: 1rem;
+        font-weight:500;
+        padding-inline:0.5em;
+    }
+
+    
+.form button{
+    padding-block:1em;
+
+}
+.form select{
+  margin-inline:4em;
+  padding-block:0.5em;
+}
+ 
+
+}
