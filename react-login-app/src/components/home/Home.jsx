@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
-  const [productData, setData] = useState([]);
+  const [productData, setProductData] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
@@ -19,7 +19,7 @@ export const Home = () => {
         throw new Error("Network response was not ok");
       }
       const result = await response.json();
-      setData(result);
+      setProductData(result);
     } catch (error) {
       setError(error);
     } finally {
