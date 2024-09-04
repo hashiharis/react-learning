@@ -1,4 +1,4 @@
-// import titleData from '../../titleData';
+
 import  './banner.css'
 import { BannerTitle } from './BannerTitle';
 export const Banner = () => {
@@ -8,14 +8,6 @@ export const Banner = () => {
         subtitle:" Online platform to invest in stocks, derivatives, mutual funds, ETFs,bonds, and more.",
         btntext:"Sign Up Now"
     }
-    // const bannerContent=titleData.map((item)=>{
-    //     return(
-    //         <BannerTitle key={item.id}
-    //                      title={item.title}
-    //                      subtitle={item.subtitle}
-    //                      text={item.btntext}/>
-    //     )
-    // })
   return (
     <section className="banner-section">
         <img

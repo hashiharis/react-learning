@@ -1,0 +1,57 @@
+
+.desktop-sidebar{
+    background-color:#fff;
+    box-shadow: 2px 1px 2px #eee;
+    position:fixed;
+    top:15vh;
+    left:30em;
+    width:60% !important
+}
+
+.sidebar-top{
+    padding-inline: 1em;
+    text-align: center;
+}
+.sidebar-bottom{
+    margin-top: 2em!important;
+    background-color: #fbfbfb;
+    border-top:1px solid #eee;
+    padding-inline: 1em;
+}
+
+.top-column{
+    margin-block: 2em !important;
+    
+}
+.title-top-column{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.subtitle-top-column{
+    color:#9b9b9b;
+    font-size: 0.75rem;
+}
+.bottom-columns{
+    margin-block:2em!important;
+    line-height: 2;
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.bottom-title{
+    margin-bottom: 2em!important;
+    color:#424242;
+    font-weight: 500;
+    font-size: 1rem;
+   
+}
+
+.no-title{
+  height:1.8rem;
+
+}
+
+.bottom-second{
+  padding:0 !important;
+} 

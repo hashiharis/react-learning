@@ -25,3 +25,27 @@
   font-size: 1.2rem;
   font-weight: 500;
 }
+
+@media (min-width:768px){
+    .banner-title{
+        margin-top :3em !important ;
+    }
+}
+
+@media (min-width:1024px){
+    .banner-title{
+        margin-top :3em !important ;
+    }
+
+    .banner-title h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .banner-title h5{
+        line-height: 2;
+        font-size: 1.5rem;
+    }
+    #signup{
+        margin-top: 1em;
+    }
+}

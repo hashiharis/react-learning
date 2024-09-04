@@ -2,7 +2,7 @@
 import './bannertitle.css'
 export const BannerTitle=({title,subtitle,text})=>{
     return(
-        <div className='banner-title'>
+        <div className='banner-title banner-down'>
         <h1>{title}</h1>
         <h5>
        {subtitle}

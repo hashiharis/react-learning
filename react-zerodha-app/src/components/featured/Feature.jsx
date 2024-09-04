@@ -1,11 +1,21 @@
-// eslint-disable-next-line react/prop-types
-export const Feature=({subtitle,description})=>{
+import featureData from "../../featureData"
+import './feature.css'
+
+export const Feature=()=>{
     return(
-        <div className="feature">
+      <>
+        {featureData.map((item,index)=>{
+          return(
+            <div className="feature"  key={index}>
             <div className="feature-item">
-              <h4>{subtitle}</h4>
-              <p>{description}</p>
+              <h4>{item.subtitle}</h4>
+              <p>{item.description}</p>
             </div>
-    </div> 
+    </div>
+          )
+        })
+          
+        } 
+      </>
     )
 }

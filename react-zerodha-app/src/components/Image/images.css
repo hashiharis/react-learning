@@ -1,5 +1,30 @@
-.images-container{
+/* .images-container{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+} */
+
+.images img{
+    width:100%;
+}
+.images{
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: 1fr 1fr;
+}
+/* .images:nth-child(1){
+    grid
+} */
+
+.images p{
+    font-size: 0.65rem;
+}
+
+@media (max-width:768px){
+    .images{
+        display: grid;
+        align-items: flex-end;
+        grid-template-columns: 0.3fr 0.5fr;
+    }
 }

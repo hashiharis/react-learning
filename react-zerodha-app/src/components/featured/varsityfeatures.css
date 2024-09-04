@@ -1,0 +1,12 @@
+.varsity-features{
+    margin-top: 3em;
+}
+.feature-points p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.feature-points:nth-child(2){
+    margin-top: 1em;
+}

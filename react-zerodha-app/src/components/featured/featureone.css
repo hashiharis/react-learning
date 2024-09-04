@@ -1,0 +1,12 @@
+.feature-one-image{
+    width:100%;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap:2em;
+}
+.links a{
+    text-decoration: none;
+}

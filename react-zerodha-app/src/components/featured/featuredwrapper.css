@@ -1,0 +1,33 @@
+.featured-container{
+    margin-top:6em;
+}
+.featured-container h2{
+    color: #424242;
+}
+.featured-container h4{
+    color: #424242;
+}
+.mediaImg{
+    width: 100%;
+    object-fit: contain;
+    padding-inline: 12em!important;
+    padding-block: 4em!important;
+}
+.account-signup h1{
+    font-size: 2rem!important;
+    font-weight: 500 !important;
+    margin-bottom: 1rem;
+}
+
+.account-signup h5{
+    color: #666!important;
+    font-size: 1rem!important;
+}
+@media (max-width:768px){
+    .mediaImg{
+        width: 100%;
+        object-fit: contain;
+        padding-inline: 2em!important;
+        padding-block: 2em!important;
+    }
+}

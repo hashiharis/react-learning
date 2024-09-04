@@ -1,0 +1,10 @@
+.varsity-image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width:768px){
+    .varsity-image img{
+        max-height: 300px;
+    }
+}

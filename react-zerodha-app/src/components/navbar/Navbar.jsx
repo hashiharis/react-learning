@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./navbar.css";
 import { MdMenu } from "react-icons/md";
 import { MdClose } from "react-icons/md";
+import { DesktopSidebar } from "../sidebar/DesktopSidebar";
+import { MobileSidebar } from "../sidebar/MobileSidebar";
 
 export const Navbar = () => {
   const [menuHide, setMenuHide] = useState(true);
@@ -28,6 +30,7 @@ export const Navbar = () => {
   );
 
   return (
+    <>
     <nav className="nav-section">
       <div className="left-section">
         <a href="/">
@@ -44,8 +47,12 @@ export const Navbar = () => {
         <li>Products</li>
         <li>Pricing</li>
         <li>Support</li>
+        {!menuHide&&<MobileSidebar/>}
       </ul>
+
       <div>{menuHide ? hamburger : hamburgerClose}</div>
     </nav>
+    {menuHide?"":<DesktopSidebar/>}
+    </>
   );
 };
