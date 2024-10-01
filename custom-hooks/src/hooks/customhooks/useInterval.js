@@ -5,7 +5,7 @@ export const useInterval = (apiCall, url) => {
     const intervalId = setInterval(() => {
       apiCall()
       console.log("From interval=>");
-    }, 10000);
+    }, 3000);
     return () => clearInterval(intervalId);
   }, [apiCall, url]);
 };

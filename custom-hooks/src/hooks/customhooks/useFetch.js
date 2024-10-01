@@ -1,4 +1,4 @@
-import { useState,useEffect} from "react";
+import { useState} from "react";
 import { useInterval } from "./useInterval";
 
 export function useFetch(url) {
@@ -24,8 +24,8 @@ export function useFetch(url) {
        setData(result)
        console.log("Result=>",result)
     }catch(error){
-      console.error("Fetch error=>",error)
-      setError(error)
+      console.log("Fetch error=>",error)
+      setError("Something went wrong")
     }finally{
       setLoading(false);   
     }
