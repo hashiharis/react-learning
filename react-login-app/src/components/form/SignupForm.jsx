@@ -18,7 +18,7 @@ export const SignupForm = () => {
     const { name, value } = e.target;
 
     if (name === "firstName" || name === "lastName") {
-      if (!/^[a-zA-Z ]+$/.test(value) &&value!=="") {
+      if (!/^[a-zA-Z ]+$/.test(value) && value !== "") {
         return;
       }
     }
@@ -45,18 +45,27 @@ export const SignupForm = () => {
     //   return;
     // }
 
-    
-    //Check email uniqueness and then add to localstorage. 
-    
+    //Check email uniqueness and then add to localstorage.
+
     // localstorage
-    let existingUsers = JSON.parse(localStorage.getItem("userCredentials")) || [];
+    let existingUsers =
+      JSON.parse(localStorage.getItem("userCredentials")) || [];
+
+    const emailFound = existingUsers.find(
+      (user) => user.email === userDetails.email
+    );
+
+    if (emailFound) {
+      alert("User with this email already exist");
+      return false;
+    }
+
     let updUser = [...existingUsers, userDetails];
     console.log(updUser);
 
     localStorage.setItem("userCredentials", JSON.stringify(updUser));
 
     navigate("/login");
-
   };
 
   return (
